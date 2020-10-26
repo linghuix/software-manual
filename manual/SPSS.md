@@ -1,3 +1,32 @@
+## 0.SPSS介绍
+
+SPSS 全称 Statistical Product and Service Solutions. 
+
+SPSS为[IBM](https://baike.baidu.com/item/IBM/9190)公司推出的一系列用于统计学分析运算、数据挖掘、预测分析和决策支持任务的软件产品及相关服务的总称，有Windows和Mac OS X等版本。其基本功能包括
+
+* 数据管理
+  * 描述性统计
+  * 均值比较
+  * 一般线性模型
+  * [相关分析](https://baike.baidu.com/item/相关分析)  
+  * [回归分析](https://baike.baidu.com/item/回归分析) 
+    * 又分[线性回归](https://baike.baidu.com/item/线性回归)分析、曲线估计、Logistic回归、Probit回归、加权估计、两阶段最小二乘法、非线性回归等多个统计过程，
+  * 对数线性模型
+  * [聚类分析](https://baike.baidu.com/item/聚类分析)
+  * [数据简化](https://baike.baidu.com/item/数据简化)、
+  * [生存分析](https://baike.baidu.com/item/生存分析)、
+  * [时间序列分析](https://baike.baidu.com/item/时间序列分析)、
+  * 多重响应等几大类
+* 统计分析
+* 图表分析
+* 输出管理等等。
+
+
+
+**当前使用版本 IBM SPSS Statistics 22.0 - 2013年8月** 
+
+
+
 ## 1. 数据库建立
 
 ### 变量视图
