@@ -18,7 +18,7 @@ SolidWorks 属于建模仿真类的软件。其建模界面方便简洁，提供
 
 **螺纹** 
 
-[三种方法创建螺纹](D:\software-manual\manual\SolidWorks.assets\三种方法创建螺纹.txt) 
+[三种方法创建螺纹](SolidWorks.assets\三种方法创建螺纹.txt) 
 
 
 
@@ -28,7 +28,7 @@ SolidWorks 属于建模仿真类的软件。其建模界面方便简洁，提供
 
 镜像实体后，右键单击可以解除镜向零部件特征。就会保留镜向实体，重建匹配特征。
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image001-1603679961273.png" style="zoom:50%;" />
+<img src="SolidWorks.assets\clip_image001-1603679961273.png" style="zoom:50%;" />
 
 
 
@@ -106,35 +106,35 @@ SolidWorks 属于建模仿真类的软件。其建模界面方便简洁，提供
 
  
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image001.png" style="zoom: 45%;" />
+<img src="SolidWorks.assets\clip_image001.png" style="zoom: 45%;" />
 
  
 
 断开剖视图
 
-​     <img src="D:\software-manual\manual\SolidWorks.assets\clip_image002.png" style="zoom: 33%;" /><img src="D:\software-manual\manual\SolidWorks.assets\clip_image003-1603678792690.png" style="zoom: 45%;" />
+​     <img src="SolidWorks.assets\clip_image002.png" style="zoom: 33%;" /><img src="SolidWorks.assets\clip_image003-1603678792690.png" style="zoom: 45%;" />
 
  
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image004.png" style="zoom:40%;" />
+<img src="SolidWorks.assets\clip_image004.png" style="zoom:40%;" />
 
 当然如果不知道参数的话，可以在深度参考选项中选择俯视图中孔的轮廓线，也可以进局部剖视，然后刷新一下，就完成剖视
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image005.png" alt="。  饧 到 勿  0 " style="zoom: 40%;" />
+<img src="SolidWorks.assets\clip_image005.png" alt="。  饧 到 勿  0 " style="zoom: 40%;" />
 
 
 
 **材料明细表** 
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image001-1603680632201.png" style="zoom: 50%;" />
+<img src="SolidWorks.assets\clip_image001-1603680632201.png" style="zoom: 50%;" />
 
 
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image001-1603680688645.png" alt=" " style="zoom: 33%;" />
+<img src="SolidWorks.assets\clip_image001-1603680688645.png" alt=" " style="zoom: 33%;" />
 
 
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image003-1603680649638.png" style="zoom: 35%;" />
+<img src="SolidWorks.assets\clip_image003-1603680649638.png" style="zoom: 35%;" />
 
 
 
@@ -202,10 +202,14 @@ solid动画只要拖动零件，就可以计算出响应约束的其他部件的
 
 高级方法：
 
-<img src="D:\software-manual\manual\SolidWorks.assets\clip_image001-1603680351571.png" style="zoom:50%;" />
+<img src="SolidWorks.assets\clip_image001-1603680351571.png" style="zoom:50%;" />
 
 
 
 零件名字有[ ]方括号代表零件保存在装配体内部，可以右键指定外部存储地址
 
- 
+**** 
+
+**SolidWorks提示默认模板无效如何解决**
+
+https://jingyan.baidu.com/article/597a06430756ca312b5243cd.html

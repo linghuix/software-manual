@@ -17,7 +17,7 @@ ADAMS是由很多模块组成的，如下图。
 
 
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001.png"  style="zoom: 33%;" />
+<img src="Adams.assets\clip_image001.png"  style="zoom: 33%;" />
 
 ### **ADAMS VIEW** 
 
@@ -75,7 +75,7 @@ ADAMS/Solver将仿真过程中的**警告信息**、错误信息输出到msg文�
 
 
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603724676979.png" alt=" " style="zoom:50%;" />
+<img src="Adams.assets\clip_image001-1603724676979.png" alt=" " style="zoom:50%;" />
 
 Adams flex ——创立柔性单元,柔性体模块
 
@@ -121,15 +121,15 @@ Car/Driveline /Classis —— 主要是与汽车某个零部件设计相关的�
 
 ### 界面view
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603725646865.png" style="zoom: 45%;" />
+<img src="Adams.assets\clip_image001-1603725646865.png" style="zoom: 45%;" />
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603725686139.png" style="zoom: 50%;" />
+<img src="Adams.assets\clip_image001-1603725686139.png" style="zoom: 50%;" />
 
 ### 工具
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603725728879.png" style="zoom:75%;" />
+<img src="Adams.assets\clip_image001-1603725728879.png" style="zoom:75%;" />
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603725742754.png" style="zoom:75%;" />
+<img src="Adams.assets\clip_image001-1603725742754.png" style="zoom:75%;" />
 
 
 
@@ -137,11 +137,11 @@ Car/Driveline /Classis —— 主要是与汽车某个零部件设计相关的�
 
 ### 设置
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603725848867.png" style="zoom: 33%;" />
+<img src="Adams.assets\clip_image001-1603725848867.png" style="zoom: 33%;" />
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603726099055.png" style="zoom:33%;" />
+<img src="Adams.assets\clip_image001-1603726099055.png" style="zoom:33%;" />
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603725793573.png" style="zoom: 33%;" />
+<img src="Adams.assets\clip_image001-1603725793573.png" style="zoom: 33%;" />
 
 
 
@@ -149,23 +149,75 @@ Car/Driveline /Classis —— 主要是与汽车某个零部件设计相关的�
 
 质量分布
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603726143288.png" style="zoom:50%;" /><img src="D:\software-manual\manual\Adams.assets\clip_image001-1603726160480.png" style="zoom:50%;" />
+<img src="Adams.assets\clip_image001-1603726143288.png" style="zoom:50%;" /><img src="Adams.assets\clip_image001-1603726160480.png" style="zoom:50%;" />
 
 ### 添加驱动
 
 角位移
 
-![](D:\software-manual\manual\Adams.assets\clip_image001-1603725938458.png)
+![](Adams.assets\clip_image001-1603725938458.png)
 
 **齿轮构建**
 
-![](D:\software-manual\manual\Adams.assets\clip_image001-1603726059335.png)
+![](Adams.assets\clip_image001-1603726059335.png)
 
 
 
 ## 仿真控制
 
+
+
 ### **测量      参数理解**
+
+
+
+**实体**
+
+我们可测量的参数有：
+
+* 质心位置，(角)速度，(角)加速度。
+
+* (角)动能
+
+XYZ 分别表示测量参数在**XYZ方向**上投影的值，而**这个XYZ方向，是下面选择的坐标系的XYZ方向**。即  *指出坐标系在*，不同的坐标系会导致X,Y,Z输出结果不同。如果不选择，默认是大地的坐标即左下角的显示的坐标方向(绿y红x蓝z)
+
+​            <img src="Adams.assets\image-20201027211625884.png" style="zoom: 50%;" />                  ![](Adams.assets\image-20201027212635644.png)  大地坐标
+
+​         如图，圆盘以质心的z轴旋转，我们要检测圆盘的质心角速度则需要选择坐标系为cm，分量为Z 或者默认大地坐标，分量也选择Z。
+
+**注意：虽然在旋转的过程中圆盘上的质心坐标也是跟随着圆盘进行旋转 [参考后处理中的动画-动画控制功能]，以质心坐标为参考坐标系的话，圆盘是不动的。但是根据计算原则，将角速度矢量投影到质心坐标系上也是有值的。**
+
+
+
+**移动副** 
+
+可以测量
+
+* 相对速度，相对加速度
+* 力，力矩
+* 功耗
+
+从/在  选择框
+
+> 由于一个运动副往往连接的是两个实体，所以Adams在创建运动副的时候会新建两个marker到两个实体中，在初始时两个marker时重合的，随着运动，可能会存在一定的偏差。比如移动副就会在marker的原点上有差异，旋转副的话就会在角度上存在一定的差异。检测就是检测这两者的差异
+
+此处选择marker19表明，相对加速度的矢量是以marker19为起点，marker20为终点。
+
+​                          <img src="Adams.assets\image-20201027213645957.png" alt="image-20201027213645957" style="zoom:70%;" />                   <img src="Adams.assets\image-20201027214603055.png" alt="image-20201027214603055" style="zoom: 60%;" />
+
+如图，移动副一个连地，一个连 translate，且 translate 运动方向为大箭头方向。 测量选择 **相对加速度的矢量**是以marker19【地】为起点，marker20【translate】为终点。所以ACC测量时正的。 翻过来就是负的了。
+
+
+
+
+
+**旋转副** 
+
+我们可测量旋转副的参数有：
+
+* 相对角速度，相对角加速度
+* 力，力矩
+* 功耗
 
 
 
@@ -186,6 +238,14 @@ Car/Driveline /Classis —— 主要是与汽车某个零部件设计相关的�
 
 ### 动画
 
+动画控制
+
+​                                                                  <img src="Adams.assets\image-20201027213316115.png" alt="image-20201027213316115" style="zoom:70%;" />             <img src="Adams.assets\image-20201027213352519.png" alt="image-20201027213352519" style="zoom:70%;" />                 
+
+动画控制可以一帧一帧的播放仿真动图，并且在运动的过程中显示每个坐标是否跟随着实体进行移动 [勾选图标]。
+
+
+
 
 
 adams如何将回放过程保存为AVI格式的电影文件
@@ -194,7 +254,7 @@ adams如何将回放过程保存为AVI格式的电影文件
 
 图像太垃圾了，还不如录制
 
-![](D:\software-manual\manual\Adams.assets\clip_image001-1603726069628.png)
+<img src="Adams.assets\clip_image001-1603726069628.png" style="zoom:50%;" />
 
 
 
@@ -258,13 +318,13 @@ Adams PostProcessor在统计工具栏中显示两个数据点之间的距离。 
 
 3。将光标拖到另一个数据点或释放鼠标按钮。
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603726347574.png" style="zoom:33%;" />
+<img src="Adams.assets\clip_image001-1603726347574.png" style="zoom:33%;" />
 
 
 
 **导出曲线数据**
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603727630284.png" style="zoom: 33%;" />
+<img src="Adams.assets\clip_image001-1603727630284.png" style="zoom: 33%;" />
 
  
 
@@ -274,7 +334,7 @@ Adams PostProcessor在统计工具栏中显示两个数据点之间的距离。 
 
 adams无法打开的解决方法
 
-<img src="D:\software-manual\manual\Adams.assets\clip_image001-1603727720499.png" style="zoom:50%;" />
+<img src="Adams.assets\clip_image001-1603727720499.png" style="zoom:50%;" />
 
 
 

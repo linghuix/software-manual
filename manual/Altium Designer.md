@@ -9,6 +9,38 @@ https://blog.csdn.net/cleverhorse/article/details/100732366
 
 
 
+
+
+#### 0.1.3 3D模型
+
+place - 3D body
+
+<img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201028204158714.png" style="zoom:50%;" />             <img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201028204236846.png" alt="image-20201028204236846" style="zoom:70%;" />
+
+导入时的坐标系和建模时的坐标系是一致的，所以最好在建模的时候在基准面上建模
+
+
+
+
+
+​       <img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201028195917590.png" style="zoom: 70%;" />            <img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201028200044651.png" style="zoom:40%;" />
+
+如果 standoff Height 为0，或者较小。则，在布置PCB元件的时候，会报错。
+
+
+
+**关于AD里面3d的制作**
+
+https://blog.csdn.net/jhn199388/article/details/74182278
+
+
+
+**从AltiumDesigner导出电路完美3D模型至Solidworks的方法**
+
+https://blog.csdn.net/quinn1994/article/details/89437259
+
+
+
 ### 0.2 元件图
 
 
@@ -135,6 +167,20 @@ Pad 用于连接元器件还起到机械固定的作用
 
 
 
+**Altium Designer原理图中如何垂直、水平镜像翻转元件**
+
+> \1. 输入法切换至英文状态！！！
+>
+> \2. 选中该器件时，鼠标左键按住不放，鼠标呈十字状，器件为可移动状态。
+>
+> \3. 同时按键盘上的X或Y：X为水平左右翻转；Y为垂直上下翻转。
+
+**AD如何翻转PCB元件**
+
+https://jingyan.baidu.com/article/93f9803f40d24ee0e46f5503.html
+
+
+
 ### 1.3 铺铜
 
 E-M-G 选择要修改的铺铜区域，然后单击锚点，放开拖动即可。
@@ -162,6 +208,12 @@ E-M-G 选择要修改的铺铜区域，然后单击锚点，放开拖动即可�
 ## 2. 原理图
 
 
+
+**ALtium原理图更新时，未改变元件，但PCB出现改动的问题**
+
+https://blog.csdn.net/abc87891842/article/details/52538660?utm_medium=distribute.pc_relevant.none-task-blog-title-3&spm=1001.2101.3001.4242
+
+https://blog.csdn.net/jiangchao3392/article/details/79918772
 
 
 
