@@ -79,7 +79,11 @@ https://blog.csdn.net/quinn1994/article/details/89437259
 
 
 
+> 垂直、水平镜像翻转、旋转元件
+
 移动器件的时候按键盘的“X”键即可水平翻转器件，按“Y”键为垂直翻转。按空格“Space”可以旋转90度。同时别忘了关掉中文输入法。
+
+https://jingyan.baidu.com/article/93f9803f40d24ee0e46f5503.html
 
 
 
@@ -92,7 +96,7 @@ E+M+O
 
 > 隐藏 PCB 栅栏图案  PCB界面中右键，选择Option - Grid Manager   双击在 Display 界面选择 
 
-<img src="AD.assets/image-20200917001029692.png" alt="image-20200917001029692" style="zoom:70%;" />
+<img src="Altium Designer.assets/image-20200917001029692.png"  style="zoom:70%;" />
 
 
 
@@ -115,7 +119,7 @@ Design-layer stack manager
 你新建的每一个 rule 都是有对应的作用域的,只是默认为所有的 net 。
 
 * 你可以新建多个线宽的 rule 分别作用于不同的作用域。
-  比如,信号线宽 20mil ,电源线宽 40mil；信号线 via 25mil/18mil ,电源线 via 5mil/38mil 。
+  **比如，信号线宽20mil**，电源线宽**40mil**；信号线**via 25mil 18mil**，电源线 **via 50mil 38mil**。
   
 * 作用域可以用 class (net 的集合) 表示。表示这个 net 集合中的 布线属性。
   
@@ -137,6 +141,14 @@ Design-layer stack manager
 
 通常电源线和地线可以宽一些,汇流
 
+<img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201029103033079.png" alt="image-20201029103033079" style="zoom: 67%;" />
+
+
+
+<img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201029105821435.png" alt="image-20201029105821435" style="zoom:67%;" />
+
+
+
 
 
 ### 1.2 布线
@@ -149,9 +161,65 @@ View - Connection - Hide Component Net    然后对应的元器件，即可屏�
 
 #### 1.2.1 自动布线
 
+自动布线前，必须配置的RULE参数为：
+
+<img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201029110638940.png" alt="image-20201029110638940" style="zoom:67%;" />
+
+RULE——规则的最小值和最大值必须设置为一样，否则无法进行自动布线
+
+<img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\图片1.png"  style="zoom: 67%;" />
+
+
+
+**手动修改：手动布线，消去自动布线的一些不合理的地方**
+
+两个通孔可以合并的需要合并
+
+<img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201029110743963.png" alt="image-20201029110743963" style="zoom:50%;" />
+
+
+
+重合的两根线需要删去一根
+
+<img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201029110154924.png" alt="image-20201029110154924" style="zoom:50%;" />
+
+
+
 
 
 #### 1.2.2 手动布线
+
+
+
+手动布线的法则
+
+•布线前，原理图的连接方式必须十分清楚，这是手动布线的关键
+
+•PCB按照原理图的方式排列封装，方便布线
+
+•使用ctrl+左键点击引脚，光亮显示相同标号的引脚和连线，方便布线
+
+​     <img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201029110846283.png" style="zoom:80%;" />     <img src="E:\101-WorkShop\simulation\software-manual\manual\Altium Designer.assets\image-20201029110904594.png" style="zoom:80%;" />
+
+**designer** **找标号的芯片： e+j+c**
+
+
+
+1、 快捷键 ：**T+C**
+
+这个快捷键在原理图和PCB图中都适用，这是**交叉查找**指针的快捷键，使用了这个功能后，会在鼠标上生成一个十字叉。用这个十字叉，在原理图中任意选择一个元件后，就可以找到元件在PCB中对应的封装。 在PCB文件中任意选择一个元件后，就可以找到原理图中对应的元件。
+
+操作如下图所示：
+
+退出此模式：在原理图点 先右键点击一下，此时十字叉消失，然后任意单击一个元器件即可退出此模式
+
+2、 快捷键：**T+S**
+
+这个快捷键是交叉显示功能的快捷键，它只在原理图中可以使用，在PCB文件中也有交叉显示这个功能，但是快捷键被占用了，所以只能手动选择。
+
+
+
+首先，在原理图中选中一个元件，此时元件会被一个绿色的框框住，然后按下T+S，就会在PCB文件中显示对应的元件了。显示的位置一般会靠右边一点
 
 
 
@@ -162,22 +230,6 @@ https://blog.csdn.net/pkuyjxu/article/details/6733804
 Via   用于电气连接不同层，但是它不与元器件相连。
 
 Pad 用于连接元器件还起到机械固定的作用
-
-
-
-
-
-**Altium Designer原理图中如何垂直、水平镜像翻转元件**
-
-> \1. 输入法切换至英文状态！！！
->
-> \2. 选中该器件时，鼠标左键按住不放，鼠标呈十字状，器件为可移动状态。
->
-> \3. 同时按键盘上的X或Y：X为水平左右翻转；Y为垂直上下翻转。
-
-**AD如何翻转PCB元件**
-
-https://jingyan.baidu.com/article/93f9803f40d24ee0e46f5503.html
 
 
 
@@ -223,22 +275,24 @@ https://blog.csdn.net/jiangchao3392/article/details/79918772
 
 #### 通用操作
 
-
-
-自定义快捷键
-
-Ctrl+ 对应的功能按钮,就能弹出对应功能的快捷键设置
-很方便
-
 按住鼠标右键拖动可平移
 
 按住鼠标中键拖动可放大
 
 tab 键设置属性
 
-右键取消
+右键取消正在执行的命令
 
 
+
+#### 快捷键
+
+
+
+**自定义快捷键**
+
+Ctrl+ 对应的功能按钮,就能弹出对应功能的快捷键设置
+很方便
 
 
 
@@ -247,34 +301,6 @@ tab 键设置属性
 #### 原理图
 
 1.  使用原件序号( designator )查找原件，如 R10, U5；按下 j+c，弹出查询输入框，然后输入序号就可以了。
-
-
-
-2.  
-
-
-
-3.  
-
-
-
-4.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
