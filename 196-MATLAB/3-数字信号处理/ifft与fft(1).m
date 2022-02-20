@@ -1,9 +1,9 @@
 %% 采样
 Fs = 128;      %% 采样频率，单位Hz
-L = 10;       %% 采样时间，单位s
+L = 1;       %% 采样时间，单位s
 t = 0:1/Fs:L;
 n = Fs*t+1;  %% 采样序号，采样点需要加一，n=length(y)
-y = sin(10*pi*t);
+y = sin(10*pi*t)+3;
 ezplot('sin(10*pi*t)',[0 L]);
 hold on
 stem(t,y,'.r');
