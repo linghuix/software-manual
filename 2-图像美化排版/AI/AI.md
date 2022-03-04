@@ -1,4 +1,4 @@
-### 0. 功能
+## 0. 功能
 
 Illustrator，常被称为“AI”，是一种应用于[出版](https://baike.baidu.com/item/出版/285005)、[多媒体](https://baike.baidu.com/item/多媒体/140486)和在线图像的**工业标准矢量插画**的软件。
 
@@ -12,11 +12,7 @@ Illustrator，常被称为“AI”，是一种应用于[出版](https://baike.ba
 
 英文键盘下：
 
-<img src="AI.assets\快捷键.jpg"  style="zoom: 40%;" />
-
-
-
-
+<img src="AI.assets\快捷键.jpg"  style="zoom: 40%;" /> 
 
 ```
 V —— 选择工具
@@ -33,13 +29,13 @@ x -- 切换填色和描边
 
 ## 2. 常用功能
 
-### 2.1 选择
+### 2.1 批量选择
 
 > 批量修改对象属性时会用到
 >
 > 譬如： 修改所有的文字的大小，某种文字的字体 等方法
 
-<img src="AI.assets\选择.jpg" alt="选择" style="zoom: 67%;" />
+<img src="AI.assets\选择.jpg" alt="选择" style="zoom: 67%;" /> 
 
 > 选取 group ![image-20210309164614086](AI.assets/image-20210309164614086.png) 
 
@@ -83,6 +79,8 @@ x -- 切换填色和描边
 
 
 
+
+
 ### 2..4 排版
 
 > ![image-20210309170748715](AI.assets/image-20210309170748715.png) 
@@ -105,7 +103,7 @@ x -- 切换填色和描边
 
 ### 2.6 公式绘制
 
-$mathtype$ 复制
+$mathtype$ 软件输入后，通过复制黏贴到 AI 中
 
 
 
@@ -117,11 +115,11 @@ $mathtype$ 复制
 >
 > Note : 可新建当前选中的填充或者描边的颜色
 
-<img src="AI.assets\image-20200805163915224.png" alt="image-20200805163915224" style="zoom: 67%;" />
+<img src="AI.assets\image-20200805163915224.png" alt="image-20200805163915224" style="zoom: 67%;" /> 
 
 同样功能：
 
-<img src="AI.assets\image-20200805163853041.png" alt="image-20200805163853041" style="zoom:50%;" />
+<img src="AI.assets\image-20200805163853041.png" alt="image-20200805163853041" style="zoom:50%;" /> 
 
 > 调色板 ![image-20210309173655522](AI.assets/image-20210309173655522.png) 
 

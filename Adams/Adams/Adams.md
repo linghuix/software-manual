@@ -137,11 +137,11 @@ Car/Driveline /Classis —— 主要是与汽车某个零部件设计相关的�
 
 ### 设置
 
-<img src="Adams.assets\clip_image001-1603725848867.png" style="zoom: 33%;" />
+<img src="Adams.assets\clip_image001-1603725848867.png" style="zoom: 67%;" />
 
-<img src="Adams.assets\clip_image001-1603726099055.png" style="zoom:33%;" />
+<img src="Adams.assets\clip_image001-1603726099055.png" style="zoom: 50%;" />
 
-<img src="Adams.assets\clip_image001-1603725793573.png" style="zoom: 33%;" />
+<img src="Adams.assets\clip_image001-1603725793573.png" style="zoom: 50%;" />
 
 
 
@@ -181,7 +181,7 @@ Car/Driveline /Classis —— 主要是与汽车某个零部件设计相关的�
 
 XYZ 分别表示测量参数在**XYZ方向**上投影的值，而**这个XYZ方向，是下面选择的坐标系的XYZ方向**。即  *指出坐标系在*，不同的坐标系会导致X,Y,Z输出结果不同。如果不选择，默认是大地的坐标即左下角的显示的坐标方向(绿y红x蓝z)
 
-​            <img src="Adams.assets\image-20201027211625884.png" style="zoom: 50%;" />                  ![](Adams.assets\image-20201027212635644.png)  大地坐标
+​            <img src="Adams.assets\image-20201027211625884.png" style="zoom: 67%;" />                  ![](Adams.assets\image-20201027212635644.png)  大地坐标
 
 ​         如图，圆盘以质心的z轴旋转，我们要检测圆盘的质心角速度则需要选择坐标系为cm，分量为Z 或者默认大地坐标，分量也选择Z。
 
