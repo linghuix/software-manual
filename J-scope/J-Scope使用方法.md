@@ -4,7 +4,7 @@
 
 0. 在使用前，需要生成对应的 `keil project` 的调试信息，因此需要在 Options for Target 的 Output 中选中 Debug Information。
 
-   <img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20201201174737899.png" alt="image-20201201174737899" style="zoom: 80%;" />  
+   <img src="Readme.assets\image-20201201174737899.png" alt="image-20201201174737899" style="zoom: 80%;" />  
 
    
 
@@ -14,7 +14,7 @@
 
    **每次编译后重新烧写到单片机**，最好重新选择 `*.elf/*.axf`。否则，某些变量的值会出错，特别是删除了一些变量后。
 
-   <img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20200223211422353.png"  style="zoom: 50%;" />     <img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20201203200332029.png" style="zoom:50%;" /> 
+   <img src="Readme.assets\image-20200223211422353.png"  style="zoom: 50%;" />     <img src="Readme.assets\image-20201203200332029.png" style="zoom:50%;" /> 
 
     图 基本需要设定的内容 | 采样频率设定为250Hz，可顺畅的采集10个变量
 
@@ -26,13 +26,13 @@
 
 2. 选择设备名称 - STM32F103RB, STM32F427VI
 
-   <img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\J-Scope使用方法.png" style="zoom: 50%;" /> 
+   <img src="Readme.assets\J-Scope使用方法.png" style="zoom: 50%;" /> 
 
 
 
 3. 工具栏
 
-<img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20200223211743681.png" alt="image-20200223211743681" style="zoom:67%;" /> 
+<img src="Readme.assets\image-20200223211743681.png" alt="image-20200223211743681" style="zoom:67%;" /> 
 
 **放大器** 可以放大水平轴的分辨率。或者选中对应的曲线后直接鼠标滚轮+Ctrl；
 
@@ -44,7 +44,7 @@
 
 4. 示波器显示界面
 
-<img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20200223211938627.png"  style="zoom: 50%;" /> 
+<img src="Readme.assets\image-20200223211938627.png"  style="zoom: 50%;" /> 
 
 ​	可用于测量时间，中间有刻度的轴是零轴和交叉点是原点。移动浮标可以计算浮标到零轴的差值。
 
@@ -56,7 +56,7 @@
 
 5. 显示器下部
 
-   <img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20200223212207208.png"   style="zoom:67%;" /> 
+   <img src="Readme.assets\image-20200223212207208.png"   style="zoom:67%;" /> 
 
    紫色区： 显示浮标所对应的值
 
@@ -68,7 +68,7 @@
 
 6. 添加追踪变量
 
-   <img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20200223212519695.png"   style="zoom: 50%;" /> 
+   <img src="Readme.assets\image-20200223212519695.png"   style="zoom: 67%;" /> 
 
    注意
 
@@ -78,9 +78,11 @@
 
    > 最多只能添加10个变量
 
+   
+
 7. 导出数据
 
-   <img src="H:\0-重要文档\robotmaster\电控\1-培训\Readme.assets\image-20201203221802043.png" style="zoom:33%;" /> 
+   <img src="Readme.assets\image-20201203221802043.png" style="zoom: 67%;" /> 
 
    Jscope 可以导出为csv格式的数据文件，数据之间，数据标签之间以“；”间隔。
 
