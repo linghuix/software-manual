@@ -33,7 +33,7 @@ SPSS为[IBM](https://baike.baidu.com/item/IBM/9190)公司推出的一系列用�
 
 可修改 / 显示 变量名，变量类型等属性
 
-<img src="D:\software-manual\manual\SPSS.assets\image-20201025150813031.png" alt="image-20201025150813031" style="zoom: 33%;" />
+<img src="SPSS.assets\image-20201025150813031.png" alt="image-20201025150813031" style="zoom: 33%;" />
 
 
 
@@ -127,7 +127,6 @@ t检验适用于标准差未知的正态分布，
 **单样本T检验：**
 
 ​		[某列数据与单个数值的比较](https://jingyan.baidu.com/article/22fe7ced055e623002617f05.html) 
-
 
 **独立样本T检验** 
     

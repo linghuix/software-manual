@@ -12,8 +12,6 @@
 
    由于是盗版的 `JLink`，所以采样频率最大为 `1KHz`。**其次要注意，如果采样多个变量的值的话，有时采样频率为 `1KHz` 会导致卡顿，此时需要降低采样频率，可取500,  200HZ** 。
 
-   Jlink ultra 采样最大为100kHz
-
    **每次编译后重新烧写到单片机**，最好重新选择 `*.elf/*.axf`。否则，某些变量的值会出错，特别是删除了一些变量后。
 
    <img src="Readme.assets\image-20200223211422353.png"  style="zoom: 50%;" />     <img src="Readme.assets\image-20201203200332029.png" style="zoom:50%;" /> 
@@ -70,7 +68,7 @@
 
 6. 添加追踪变量
 
-   <img src="Readme.assets\image-20200223212519695.png"   style="zoom: 67%;" /> 
+   <img src="Readme.assets\image-20200223212519695.png"   style="zoom: 50%;" /> 
 
    注意
 
@@ -80,11 +78,9 @@
 
    > 最多只能添加10个变量
 
-   
-
 7. 导出数据
 
-   <img src="Readme.assets\image-20201203221802043.png" style="zoom: 67%;" /> 
+   <img src="Readme.assets\image-20201203221802043.png" style="zoom:33%;" /> 
 
    Jscope 可以导出为csv格式的数据文件，数据之间，数据标签之间以“；”间隔。
 

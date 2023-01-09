@@ -1,0 +1,100 @@
+mourn=v 哀悼，对什么感到痛心
+repression=n 压抑，镇压
+affect=n 影响，情感
+sentiment=n 观点，意见，感情，情绪
+rectify=vt 纠正，修复
+priority=n 优先权，优先考虑的事情
+dispute，debate=n 辩论
+disguise=n 用来伪装的东西，伪装 vt 伪装，掩盖
+cognition=n 认识，认知
+eloquent=adj 雄辩的，口才琉璃的 ；明白的显示出
+sth be eloquent of sth=明白的显示出
+wary=adj 小心的，紧惕的
+radical=adj 根本的，基本的，激进的
+reinforce=vt 增强，加强；增援
+immortal=adj 不朽的，不死的
+immortalize=vt
+mortal=adj. 凡人的；致死的；终有一死的；不共戴天的 n. 人类，凡人
+narrate =vt 讲述
+spice（n 香料，情趣 v ） your life=使你的生活增加点情趣
+patriotism =n 爱国主义精神
+patriot =n 爱国者
+rot =vt/vi腐烂，衰退
+disorder =n/vt 混乱，紊乱
+disordered =adj
+neutral =adj 中立的，暗淡的，中性的 n 中立国/人
+endurance =n 忍耐力， 持久力
+endure =vt
+politician /statement=政治家
+initial =adj 最初的，开始的
+flatter =vt 奉承
+flutter =n 紧张 vi 飘动，飘扬；展翅而飞；心脏快速跳动 
+elaborate =adj 精心制作的；详尽的；煞费苦心的
+philosophy =n. 哲学；哲理；人生观
+scheme =n. 计划；组合；体制；诡计 vt. 计划；策划
+account for =解释说明；是...的原因 
+there is no accounting for taste =人各有所好，互相之间无法解释
+counter =n. 柜台；对立面；计数器；（某些棋盘游戏的）筹码 vt. 反击，还击；反向移动，对着干；反驳，回答 vi. 逆向移动，对着干；反驳 adj. 相反的 adv. 反方向地；背道而驰地
+opaque =adj 晦涩难懂的，不透明的，不透光的
+subtle =adj. 微妙的（delicate）；精细的；敏感的；狡猾的；稀薄的
+becom suspicious of sb =对某人表示怀疑
+elapse =vi （时间）消逝，过去
+terminal =n 终点，终端机，极限
+terminate =v 终止，结束
+aesthetic =adj. 美的；美学的；审美的，具有审美趣味的，雅致的
+aesthete =n. 唯美主义者；审美家
+prospect =n. 前途；预期；景色
+pursuit =n 追求；追赶，嗜好（常pl.）
+in hot pursuit =穷追不舍  in pursuit of
+cosy =adj. 舒适的；惬意的   
+cozy =vt. 蒙骗；抚慰 adj. 舒适的；安逸的
+deliberate =adj 故意的；慎重的，深思熟虑的
+enthusiasm =n. 热心，热忱，热情
+enthusiastic =adj. 热情的；热心的；狂热的
+scent =n 气味，香味，踪迹，香水 vt 嗅到
+productive =adj 富饶的，多产的，富有成效的
+register =vt.记录；挂号邮寄；把…挂号；正式提出vi. 登记；注册n. 登记；注册；记录；寄存器；登记
+amplify  =vt. 放大，扩大；增强；详述
+tame =vt 驯服，制服，控制并利用，驯化 adj 驯服的，服从的，乏味的，沉闷的
+concrete =adj 具体的，有形的 n 混凝土，具体物 v 使凝固
+discrete =adj 不连续的
+rigorous =adj 严格的，严厉的，缜密的
+culminate in =以。。。。告终
+cater for sb =迎合某人（的需求）    
+cater to sth =满足某种需求
+resort =n 求助，凭借，常去之地，采用的手段办法
+resort to sb/some place  =求助，凭借，
+implement= v.实施；执行；贯彻；使生效 n.工具
+scorn =n/v 轻蔑，鄙视
+contempt =n 轻视，藐视，不顾
+immerse =vt 使浸没，使沉浸在，使专心于   — in sth
+mansion ，skeptical= 
+passion =n 热情，激情
+passive =adj 被动的，消极的
+conscious =adj 意识到的
+complement =vt 与...相匹配
+movie directors use music to complement the action on the screen.
+property(财产，地产，特性)，attribute =n 属性
+own/attribute =v 把。。归功于
+compulsory =adj 强制的，必须的
+defective =adj 有缺点的，不完美的，不完全的
+defect,deficiency =n 毛病，缺陷，瑕疵 
+attend =vt 上（学），照顾，处理
+attend to sb/sth =照顾，处理
+She was jealous, humiliated, and emotionally at the end of her tether.=她觉得又嫉妒又屈辱，情绪低落至极。
+V-T If someone rags you, they tease you in a friendly way. =(善意地) 揶揄
+"They always rag me about my car," he says.=“他们总拿我的汽车取笑我，”他说。
+She was jealous, humiliated, and emotionally at the end of her tether.=她觉得又嫉妒又屈辱，情绪低落至极。
+all walks of life=各行各业的人
+iside from=除了...以外
+However=然而
+
+
+
+
+
+
+
+
+
+

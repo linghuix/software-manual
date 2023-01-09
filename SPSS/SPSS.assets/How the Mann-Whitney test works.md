@@ -1,10 +1,14 @@
-**How the Mann-Whitney test works**
+**How the Mann-Whitney test works** 
 
-Mann-Whitney检验又叫做秩和检验，是比较没有配对的两个独立样本的非参数检验。思想是这样的：假定要检验两组数据之间有没有差异。首先，不管  分组把所有数据排序。按照数值大小给定一个值叫做秩。最小的值秩为1，最大的为N（假定两个样本总共有N个观察值）。如果有相同的值，就得到相同的秩。相 同的值的秩是他们的秩的平均值。如果两组的秩的和差距比较大，就会得出较小的p值，认为这两组间有显著差异。软件：[spss软件](http://baike.baidu.com/view/637703.htm)，只要输入数据，选择合适的参数，就可以很快得到结果。
+**Mann-Whitney 检验 ([曼惠特尼u检验](http://www.datasoldier.net/archives/tag/曼惠特尼u检验))** 又叫做秩和检验，是比较没有配对的两个独立样本的非参数检验。思想是这样的：假定要检验两组数据之间有没有差异。首先，不管  分组把所有数据排序。按照数值大小给定一个值叫做秩。最小的值秩为1，最大的为N（假定两个样本总共有N个观察值）。如果有相同的值，就得到相同的秩。相 同的值的秩是他们的秩的平均值。如果两组的秩的和差距比较大，就会得出较小的p值，认为这两组间有显著差异。软件：[spss软件](http://baike.baidu.com/view/637703.htm)，只要输入数据，选择合适的参数，就可以很快得到结果。
+
+
 
 **How to think about the results of a Mann-Whitney test**
 
 样本量太小的话效度会很低。比如，如果总的数据只有7个或者更少的话，p值总是大于5%的。**一组样本量必须大于20，即两组样本量之和必须大于40。数据量比较小的话容易造成第二类错误。**
+
+
 
 **Is the Mann-Whitney test the right test for these data?**
 
@@ -23,7 +27,7 @@ Mann-Whitney检验又叫做秩和检验，是比较没有配对的两个独立�
 
 #### SPSS 分析 [Mann-Whitney](http://www.datasoldier.net/archives/tag/mann-whitney) U test 结果分析
 
-<img src="C:\Users\XLH\AppData\Roaming\Typora\typora-user-images\image-20210802190443309.png" alt="image-20210802190443309" style="zoom:50%;" /> 
+<img src="How%20the%20Mann-Whitney%20test%20works.assets/image-20220606174712360.png" style="zoom:67%;" />
 
 图 [Mann-Whitney](http://www.datasoldier.net/archives/tag/mann-whitney) U test 的结果  
 
