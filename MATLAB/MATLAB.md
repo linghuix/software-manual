@@ -143,6 +143,35 @@ matlab**读取Excel文件**的命令为**xlsread**，xlsread的调用格式为**
 
 
 
+#### 误差图
+
+ [shadedErrorBar.m](MATLAB.assets\shadedErrorBar.m) 
+
+```
+y=randn(30,80); 
+x=1:size(y,2);
+shadedErrorBar(x,y,{@median,@std},'lineprops',{'r-','markerfacecolor','r'});
+```
+
+```
+y=randn(30,80); 
+x=1:size(y,2);
+shadedErrorBar(x,mean(y,1),std(y),'lineprops','g');
+```
+
+Overlay two transparent lines:
+
+```
+clf
+y=randn(30,80)*10; 
+x=(1:size(y,2))-40;
+shadedErrorBar(x,y,{@mean,@std},'lineprops','-r','transparent',1);
+hold on
+y=ones(30,1)*x; y=y+0.06*y.^2+randn(size(y))*10;
+shadedErrorBar(x,y,{@mean,@std},'lineprops','-b','transparent',1);
+hold off
+```
+
 
 
 

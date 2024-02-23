@@ -30,3 +30,22 @@
 
 论文的详细信息可以参考 —— 中文参考知网，英文参考 web of science
 
+
+
+### Zotfile 插件
+
+安装方法：
+
+ [zotfile-5.1.2-fx.xpi](zotero.assets\zotfile-5.1.2-fx.xpi) 
+
+<img src="zotero.assets/image-20230515162151799.png" style="zoom:67%;" />
+
+
+
+
+
+<img src="zotero.assets/image-20230515161811367.png" style="zoom: 50%;" /> 
+
+<img src="zotero.assets/image-20230515161110996.png" style="zoom:67%;" />  
+
+<img src="zotero.assets/image-20230515161720161.png" style="zoom:67%;" /> 

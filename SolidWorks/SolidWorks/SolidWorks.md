@@ -82,6 +82,16 @@ SolidWorks 属于建模仿真类的软件。其建模界面方便简洁，提供
 
 <img src="SolidWorks.assets\未命名图片.png" alt="未命名图片" style="zoom:40%;" />
 
+标准件生成后，每次打开都会重新加载，因此无法对标准件进行修改和重命名。要防止标准件这种自动改变，最好将其转换成普通零件，
+
+#### Toolbox转成普通零件 
+
+打开 sldsetdocprop.exe. 通常在 C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\Toolbox\data utilities
+
+将其`属性状态`改为否，点击更新状态。显示所选属性，文件属性如为 `IsToolboxPart=No`，表明已经修改成功。 此时零件图标从 ![](SolidWorks.assets/image-20240311164522326.png) 变为 ![](SolidWorks.assets/image-20240311164545291.png).
+
+<img src="SolidWorks.assets/image-20240311164231519.png" style="zoom:67%;" />
+
 
 
 ### **工程图** 
@@ -208,7 +218,7 @@ solid动画只要拖动零件，就可以计算出响应约束的其他部件的
 
 零件名字有[ ]方括号代表零件保存在装配体内部，可以右键指定外部存储地址
 
-**** 
+****
 
 **SolidWorks提示默认模板无效如何解决**
 

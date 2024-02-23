@@ -32,8 +32,8 @@ function myserial_Arduino_interupt
     line = [h1_1 h1_2 h1_3 h1_4 h1_5 h1_6 h1_7 h1_8 h1_9 h1_10]
     legend('show')
 
-    s = serial('COM34');         %定义串口对象
-    set(s,'BaudRate',115200);    %设置波特率,缺省9600bit/s 
+    s = serial('COM12');         %定义串口对象
+    set(s,'BaudRate',19200);    %设置波特率,缺省9600bit/s 
     s.parity='none';            %设置校验位无奇偶校验，默认none
     s.stopbits=1;               %设置停止位，默认1
     s.Terminator='LF';          %设置输入缓冲区为256b，缺省值 

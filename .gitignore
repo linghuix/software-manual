@@ -39,6 +39,7 @@
 *.avi
 
 *.zip
+*.rar
 
 Abaqus/hit/result_data/*.*
 Abaqus/hitter/result/*.*

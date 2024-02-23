@@ -10,7 +10,7 @@
 
 设置-管理快捷键
 
-<img src="Noepad.assets/image-20220406111456745.png" style="zoom: 33%;" />        <img src="Noepad.assets/image-20220406111524440.png" style="zoom: 33%;" /> 
+<img src="Noepad.assets/image-20220406111456745.png" style="zoom: 50%;" />        <img src="Noepad.assets/image-20220406111524440.png" style="zoom: 33%;" /> 
 
 
 
