@@ -37,7 +37,7 @@
 **其他参考**
 
 ```
-语法 mklink [[/d] |[/h] |[/j]]<Link><Target>
+语法 mklink [[/d] |[/h] |[/j]]<Link>  <Target>
 
 /d       创建目录的符号链接。 默认情况下mklink中创建文件的符号链接。
 /h       创建硬链接，而不是符号链接。
@@ -69,6 +69,13 @@ mklink /d "C:\Users\lingh\OneDrive - KTH\PI-N" "Z:\"
 mklink /d "C:\Users\lhx\OneDrive - KTH\Samba-Raspbian\movie" "Z:\电影"
 
 mklink /d "C:\Users\lhx\OneDrive - KTH\Samba-Raspbian\小说" "Z:\FIle\2-小说文学"
+
+
+mklink /d "C:\Users\lhx\OneDrive - KTH\MyFile" "D:\MyFile"
+
+mklink /d "C:\Users\lhx\OneDrive - KTH\mail\home" "C:\Users\lhx\AppData\Roaming\Thunderbird\Profiles\7hw9mpmg.default-release\ImapMail" 
+
+mklink /d "C:\Users\lingh\OneDrive - KTH\mail\office" "C:\Users\lingh\AppData\Roaming\Thunderbird\Profiles\i5d7kced.default-release\ImapMail"
 ```
 
 
